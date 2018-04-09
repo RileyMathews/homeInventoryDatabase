@@ -3,7 +3,7 @@ const HomeInventoryDatabase = {}
 
 // Define the arrays (a.k.a. tables) in the database to store each type of items
 HomeInventoryDatabase.furniture = []
-HomeInventoryDatabase.crafts = []
+HomeInventoryDatabase.instruments = []
 HomeInventoryDatabase.electronics = []
 
 const markVAmp = {
@@ -18,7 +18,7 @@ const archTopBanjo = {
     location: "studio",
     description: "My oldest instrument, rumored to have previously been owned by banjo virtuoso Noam Pickelny"
 }
-HomeInventoryDatabase.crafts.push(archTopBanjo)
+HomeInventoryDatabase.instruments.push(archTopBanjo)
 
 const gamingStation = {
     name: "Gaming Desktop Computer",
@@ -32,14 +32,14 @@ const acousticGuitar = {
     location: "studio",
     description: "one of my favorite instruments I own, it's back and sides are made of solid Brazillian Rosewood, which is now illegal to import into the US"
 }
-HomeInventoryDatabase.crafts.push(acousticGuitar)
+HomeInventoryDatabase.instruments.push(acousticGuitar)
 
 const lesPaul = {
     name: "Les Paul '59 Reissue",
     location: "studio",
     description: "my favorite electric guitar, it is a '59 reissue bought from the gibson showcase which used to be in the opry mills mall"
 }
-HomeInventoryDatabase.crafts.push(lesPaul)
+HomeInventoryDatabase.instruments.push(lesPaul)
 
 const iMac = {
     name: "apple iMac desktop computer",
@@ -53,14 +53,14 @@ const tenorSax = {
     location: "studio",
     description: "a vintage selmer saxophone, often hailed as one of the best saxophone models ever produced"
 }
-HomeInventoryDatabase.crafts.push(tenorSax)
+HomeInventoryDatabase.instruments.push(tenorSax)
 
 const strat = {
     name: "Fender american stratocaster",
     location: "studio",
     description: "A strat which has undergone many iterations as I have swapped out the pickups, currently using the same pickups as one of my favorite guitarists, Andy Timmons."
 }
-HomeInventoryDatabase.crafts.push(strat)
+HomeInventoryDatabase.instruments.push(strat)
 
 const recordingStation = {
     name: "Recording Desk",
